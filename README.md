@@ -11,44 +11,36 @@ This project is designed to authenticate Node.js-based backend applications usin
 Here are the steps to run this project locally:
 
 1. **Clone the GitHub repository:**
-
-bash
    git clone https://github.com/ramadhan1299/nodejs-express-auth-jwt.git
 
 2. **Navigate to the project directory**
-bash
     cd nodejs-express-auth-jwt
 
 3. **Install dependencies**
-    
-bash
     npm install
 
 4. **Start the application**
-bash
     npm start
 
 ## API Reference
 
 ### Register
-bash
   POST /api/register
-bash
+
   {
     "username" : "ramadhan",
     "password": "password"
   }
 
-### Lgin
-bash
+### Login
   POST /api/login
-bash
+
   {
     "username" : "ramadhan",
     "password": "password"
   }
 ### Protected Route (Example)
-bash
+
   GET /api/hello-world
 
   Authorization header: Authorization: Bearer <token>
