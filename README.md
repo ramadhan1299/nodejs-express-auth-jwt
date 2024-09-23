@@ -29,27 +29,27 @@ Here are the steps to run this project locally:
 ## API Reference
 
 ### Register
-```bash
-  POST /api/register
+    ```bash
+    POST /api/register
 
- ```bash
-  {
-    "username" : "ramadhan",
-    "password": "password"
-  }
+    ```bash
+    {
+        "username" : "ramadhan",
+        "password": "password"
+    }
 
 ### Login
- ```bash
-  POST /api/login
+    ```bash
+    POST /api/login
 
- ```bash
-  {
-    "username" : "ramadhan",
-    "password": "password"
-  }
+    ```bash
+      {
+        "username" : "ramadhan",
+        "password": "password"
+      }
 
 ### Protected Route (Example)
- ```bash
-  GET /api/hello-world
+    ```bash
+    GET /api/hello-world
 
-  Authorization header: Authorization: Bearer <token>
+    Authorization header: Authorization: Bearer <token>
