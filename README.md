@@ -36,6 +36,7 @@ POST /api/register
     "username" : "ramadhan",
     "password": "password"
 }
+```
 
 ### Login
 ```bash
@@ -45,9 +46,11 @@ POST /api/login
     "username" : "ramadhan",
     "password": "password"
 }
+```
 
 ### Protected Route (Example)
 ```bash
 GET /api/hello-world
     
 Authorization header: Authorization: Bearer <token>
+```
