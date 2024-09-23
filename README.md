@@ -1,30 +1,30 @@
-# Node.js Express Authentication Json Web Token
+# Node.js Express JWT Authentication
 
-Proyek ini adalah aplikasi autentikasi yang dibangun menggunakan Node.js, Express, dan JWT.
+This project is an authentication application built using Node.js, Express, and JSON Web Tokens (JWT).
 
-## Tentang Proyek
+## About the Project
 
-Proyek ini dibuat untuk mengautentikasi aplikasi backend berbasis Node.js dengan menggunakan JWT, dan berinteraksi dengan file .json sebagai pengganti database. Aplikasi ini mendemonstrasikan bagaimana cara membuat API Auntentikasi atau fitur Login.
+This project is designed to authenticate Node.js-based backend applications using JWT and interacts with a .json file instead of a database. It demonstrates how to create an authentication API or login feature.
 
-## Instalasi
+## Installation
 
-Berikut adalah langkah-langkah untuk menjalankan proyek ini secara lokal.
+Here are the steps to run this project locally:
 
-1. **Clone repository GitHub:**
+1. **Clone the GitHub repository:**
 
 bash
    git clone https://github.com/ramadhan1299/nodejs-express-auth-jwt.git
 
-2. **Masuk ke direktori proyek**
+2. **Navigate to the project directory**
 bash
     cd nodejs-express-auth-jwt
 
-3. **Instal dependensi**
+3. **Install dependencies**
     
 bash
     npm install
 
-4. **Jalankan aplikasi**
+4. **Start the application**
 bash
     npm start
 
@@ -47,8 +47,8 @@ bash
     "username" : "ramadhan",
     "password": "password"
   }
-#### Hello World
+### Protected Route (Example)
 bash
-  GET /api/products/:id
-bash
-  Authorization: Bearer Token
+  GET /api/hello-world
+
+  Authorization header: Authorization: Bearer <token>
